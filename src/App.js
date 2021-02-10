@@ -10,7 +10,7 @@ const App = () => {
     <>
       <h1>Hello React</h1>
       
-      <Greeting name="Sherman"/>
+      <Greeting name="Sherman" favoriteNumber={26}/>
     </>
   );
 }
