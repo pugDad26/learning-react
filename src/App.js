@@ -17,7 +17,9 @@ const App = () => {
     <div
       style={styles.container}
     >
-      <h1>Hello React</h1>
+      <h1
+        style={{padding: 40}}
+      >Hello React</h1>
       
       <Greeting name="Sherman" favoriteNumber={26} favoriteColors={["green", "orange", "purple"]}/>
     </div>
