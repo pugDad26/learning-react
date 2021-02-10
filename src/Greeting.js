@@ -2,7 +2,7 @@
 
 //In order to use component you need to export it
 import React from 'react';
-// destructuring props into 3 names
+// destructuring props into 3 new variables
 export const Greeting = ({
     name,
     favoriteNumber,
