@@ -9,11 +9,8 @@ const App = () => {
       // Elements need a parent element
     <>
       <h1>Hello React</h1>
-      <h2>Hello Sherman</h2>
-      <h2>Hello Doug</h2>
-
       
-      <Greeting />
+      <Greeting name="Sherman"/>
     </>
   );
 }
