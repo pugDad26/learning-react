@@ -9,6 +9,9 @@ const App = () => {
       padding: 20,
       backgroundColor: new Date().getSeconds() % 2 ? "lightblue" : "pink"
     }
+    , heading: {
+      textTransform: "uppercase"
+    }
   };
   return (
     // Looks like html but it is JSX
@@ -18,7 +21,7 @@ const App = () => {
       style={styles.container}
     >
       <h1
-        style={{padding: 40}}
+        style={styles.heading}
       >Hello React</h1>
       
       <Greeting name="Sherman" favoriteNumber={26} favoriteColors={["green", "orange", "purple"]}/>
